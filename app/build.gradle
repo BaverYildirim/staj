@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.questionnaireapp"
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    /*Google Signin integration android */
+    implementation 'com.google.android.gms:play-services-auth:20.3.0'
+
+/* firebase uygulamada Firebase Assistan ==> email password Authentication Asistans*/
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+
+    /* firebase uygulamada Firebase Assistan ==> realtime database */
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+
+    /* firebase uygulamada Firebase Assistan ==>  Storage*/
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+
+    /*circle image view*/
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    /* Glide:internetteki resimleri almak*/
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    // firebase-bom:30.3.2 , firebase
+    // analytics:web site trafik izlemek
+    implementation platform('com.google.firebase:firebase-bom:31.0.3')
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}

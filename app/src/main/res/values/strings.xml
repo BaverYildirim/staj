@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Questionnaireapp</string>
+    <string name="hint_email">Emailinizi giriniz</string>
+    <string name="hint_password">Şifrenizi giriniz</string>
+    <string name="button_login">Giriş</string>
+    <string name="button_google">Google ile Giriş</string>
+    <string name="button_register">Kayıt Olmak İster misiniz ?</string>
+    <string name="forgot_password">Şifremi Unuttum ?</string>
+    <string name="button_telephone">Telefon</string>
+    <string name="admin_redirect">Admin Sayfasına Yönlendiliyorsunuz</string>
+    <string name="telephone_login_redirect">Telephone Validation Sayfasına Yönlendiliyorsunuz</string>
+    <string name="login_faile">Sisteme giriş yaparken hata meydana geldi İnternetiniz veya kulanıcı yoktur</string>
+    <string name="register">Register Sayfası</string>
+    <string name="email">Email</string>
+    <string name="button_logout">Güvenli Çıkış</string>
+</resources>

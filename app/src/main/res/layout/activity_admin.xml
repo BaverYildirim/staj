@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+    <!--toolbar eklemek-->
+    <include
+        android:id="@+id/myToolBarId"
+        layout="@layout/my_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="ANKETİMİZE HOŞ GELDİNİZ "
+        android:textColor="#ffffff" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="300dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Restorantımızdan Memnun Kaldınız Mı?"/>
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kötü" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vasat" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İyi" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mükkemel" />
+
+</RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Oturumu Kapatınız"
+        android:id="@+id/signOutButtonId"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+
+        android:text="Kaydet" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130625007802",
+    "project_id": "questionnaireapp-dc4db",
+    "storage_bucket": "questionnaireapp-dc4db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130625007802:android:3a435d0caa89ea00a99283",
+        "android_client_info": {
+          "package_name": "com.example.questionnaireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130625007802-ibsg685pandi1k73pvooluh4amcqjrp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMGL2jP1dA--R06gfL55QQi4LPxchf7Dc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130625007802-ibsg685pandi1k73pvooluh4amcqjrp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
